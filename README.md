@@ -35,3 +35,9 @@
 ```
     vagrant box list
 ```
+
+-   Accessing virtual machine via ssh. Vangrant already provides a shortcut for this
+
+```
+    vagrant ssh
+```
