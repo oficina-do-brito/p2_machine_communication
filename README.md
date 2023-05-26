@@ -8,6 +8,15 @@
 -   It has cli, compatibility with windows, linux and debian etc.
 -   its command and functioning interface is similar to docker and docker compose
 
+#### Install Vagrant
+
+- it is prerequisite to have virtualbox installed on your system
+
+```
+    sudo apt install virtualbox -y && 
+    sudo apt install vagrant -y
+```
+
 ### How to run project
 
 ### Useful commands for using the cli
