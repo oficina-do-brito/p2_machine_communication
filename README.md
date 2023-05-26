@@ -14,6 +14,7 @@
 
 ```
     sudo apt install virtualbox -y && 
+    sudo vagrant plugin install vagrant-vbguest – plugin-version 0.21 &&
     sudo apt install vagrant -y
 ```
 
@@ -24,29 +25,29 @@
 -   create instance based on box
 
 ```
-    vagrant up
+    sudo vagrant up
 ```
 
 -   check id of machines that are available
 
 ```
-    vagrant global-status
+    sudo vagrant global-status
 ```
 
 -   Destroy a running machine
 
 ```
-    vagrant destroy id_maquina -f
+    sudo vagrant destroy id_maquina -f
 ```
 
 -   View images/creation base box
 
 ```
-    vagrant box list
+    sudo vagrant box list
 ```
 
 -   Accessing virtual machine via ssh. Vangrant already provides a shortcut for this
 
 ```
-    vagrant ssh
+    sudo vagrant ssh
 ```
